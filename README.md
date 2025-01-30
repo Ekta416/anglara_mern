@@ -16,11 +16,17 @@
 The server will be running on http://localhost:5000
 
 Testing Use Postman to test the API endpoints. 
-Example requests: Register: POST /api/auth/register with { "username": "test", "password": "test123" }
+Example requests:
+ Register: POST /api/auth/register with { "username": "test", "password": "test123" }
+
  Login: POST /api/auth/login with { "username": "test", "password": "test123" }
+
  Create Category: POST /api/category with { "name": "Electronics", "parent": null }
+
  Fetch Categories: GET /api/category
+
  Update Category: PUT /api/category/:id with { "name": "Updated Electronics" } 
+
 Delete Category: DELETE /api/category/:id
 
 
