@@ -49,13 +49,17 @@ Delete Category: DELETE /api/category/:id
 The server will be running on http://localhost:3000
 
 Category Tree: Display categories in a nested structure based on parent-child relationships.
+
 Navigate to the /categories route to view the category tree.
 
 Create Category:Form to add a new category with an optional parent category.
+
 Use the /categories/create route to create a new category.
 
 Update Category:Option to delete a category, with a confirmation dialog before deletion
+
 Use the /categories/update/:id route to update an existing category.
 
 Delete Category:Option to delete a category, with a confirmation dialog before deletion.
+
 Use the /categories/delete/:id route to delete a category.
