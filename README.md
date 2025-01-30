@@ -16,7 +16,9 @@
 The server will be running on http://localhost:5000
 
 Testing Use Postman to test the API endpoints. 
+
 Example requests:
+
  Register: POST /api/auth/register with { "username": "test", "password": "test123" }
 
  Login: POST /api/auth/login with { "username": "test", "password": "test123" }
@@ -45,6 +47,7 @@ Delete Category: DELETE /api/category/:id
 - **Axios**: HTTP client for making API requests.
 
 The server will be running on http://localhost:3000
+
 Category Tree: Display categories in a nested structure based on parent-child relationships.
 Navigate to the /categories route to view the category tree.
 
